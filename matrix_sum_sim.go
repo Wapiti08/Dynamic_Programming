@@ -43,15 +43,11 @@ func main() {
 	// take N and M as the range to input element in the matrix
 	Matrix := make([][]int, i)
 	var value int
-	cal := 1
 	for row := range Matrix {
 		Matrix[row] = make([]int, j)
 		for column := range Matrix[row] {
-			cal += 1
 			fmt.Scanf("%d",&value)
 			Matrix[row][column] = value
-			if cal > 1000:
-				
 		}
 	}
 
